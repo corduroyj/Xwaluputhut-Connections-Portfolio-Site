@@ -22,11 +22,32 @@ body {
 }
 
 main {
-  background-color: var(--yellow);
+  /* background-color: var(--green); */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/forestBackground.jpg');
+  /* background-image: url('../images/forestBackground.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.line-break {
+  padding-bottom: 0.5rem;
+  background-image: linear-gradient(to bottom, rgba(38,77,142) 0%, rgba(173,43,45) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+  background-clip: padding-box;
+}
+
+.main-body {
+  margin-top: 4rem;
+}
+
+.lower-main {
+  margin-top: 0;
+  background-color: white;
 }
 
 .article-box {
   background-color: white;
+  border-color: var(--red) !important;
 }
 
 /* .carousel {
@@ -41,9 +62,8 @@ main {
   position: absolute;
   top: 50%;
   left: 50%; 
-  /* transform: translate(-50%, -50%); */
-  max-width:100%;
-  width: 100%;
+  min-width: 80%;
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -52,7 +72,7 @@ main {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
