@@ -67,6 +67,10 @@ main {
   object-fit: cover;
 }
 
+.sidebar-img {
+  max-width: 100%;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
