@@ -86,33 +86,37 @@
         <!-- Blog Row -->
         <div class="row g-5 lower-main rounded-top">
             <!-- Main Column -->
-            <div class="col-md-8" id="about">
+            <div class="col-md-12" id="about">
                 <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                    About myself and the work I strive to do.
+                    Contact me to schedule Workshops, Connections, and many other Services
                 </h3>
         
-                <!-- TODO Fill About me -->
+                <!-- TODO Fill Call to Action -->
                 <article>
                     <p>
                     Motivational Speaking, Workshops, cultural connection, drumming, singing, composing, and advocacy
                     </p>
                 </article>
             </div>
-
-            <div class="col-md-4">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut reiciendis doloribus, doloremque eos quia at vero qui, necessitatibus ipsum, commodi earum enim alias pariatur expedita quod. Numquam, officia. Maiores, eaque?
-                </p>
-            </div>
         </div>
 
         <div class="row g-5 lower-main rounded-bottom">
             <div class="col-md-6">
-                <h2>Get in Touch</h2>
+
+                <h2 class="soft-font">Get in Touch</h2>
                 <hr>
-                <p>Contact Patrick Aleck to book a workshop or ask questions.</p>
-                <p>(250) 667-7794</p>
-                <p>carlaleck73@gmail.com</p>
+                <h4 class="soft-font">(250) 667-7794</h4>
+                <h4 class="soft-font">carlaleck73@gmail.com</h4>
+                <hr>
+                <h2 class="soft-font">Send an Email</h2>
+
+                <form action="mailto:carlaleck73@gmail.com" method="post" enctype="text/plain">
+                    <input class="input" placeholder="Full Name">
+                    <input class="input" type="email" placeholder="Email" name="email">
+                    <textarea class="input" placeholder="Hi Patrick, I am planning an event that could use your expertise....."></textarea>
+                    <input type="hidden" name="subject" class="text-input" value="Message from Xwaluputhut Connections website">
+                    <button type="submit button" class="btn btn-primary">SUBMIT</button>
+                </form>
 
             </div>
             <!-- Sidebar -->
@@ -145,4 +149,13 @@
             </div>
         </div>
     </div>
-  </main>
+    </main>
+
+    <!-- TODO Footer -->
+    <footer class="blog-footer">
+        Background Photo by <a href="https://martinvorel.com/">Martin Vorel</a>
+        <script src="javascript/bootstrap.bundle.min.js"></script>
+    </footer>
+  
+    </body>
+  </html>
