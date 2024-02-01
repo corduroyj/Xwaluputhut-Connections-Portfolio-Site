@@ -16,6 +16,16 @@ body {
   font-size: 1.1rem;
 }
 
+.nav-logo {
+  display: inline-block;
+  width: 75px;
+  height: 50px;
+  background: url(../images/XClogo.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  /* border-radius: 50%; */
+}
+
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
@@ -23,12 +33,19 @@ body {
 
 .nav-container {
   background-color: white;
+  /* margin-left: 0% !important; */
+}
+
+.nav-move-left {
+  margin-left: 0% !important;
 }
 
 .header-text {
   text-decoration: none;
   color: black;
 }
+
+
 
 main {
   background-color: var(--green);
@@ -45,7 +62,7 @@ main {
 }
 
 .main-body {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .lower-main {
@@ -64,11 +81,13 @@ main {
 
 .image-center {
   position: absolute;
-  top: 50%;
-  left: 50%; 
-  min-width: 80%;
-  max-width: 100%;
   object-fit: cover;
+  object-position: 60% top;
+}
+
+.middle-image {
+  object-position: 0% top;
+  max-width: 80%;
 }
 
 .sidebar-img {
